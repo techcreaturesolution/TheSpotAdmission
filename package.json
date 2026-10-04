@@ -1,0 +1,15 @@
+{
+  "name": "thespotadmission",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The Spot Admission: college & school listing, admission enquiries, spot-admission seat board and counselling (MERN)",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "lint": "npm --prefix server run lint && npm --prefix client run lint",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start"
+  }
+}
